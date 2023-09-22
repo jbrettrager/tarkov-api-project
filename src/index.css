@@ -17,19 +17,48 @@ body {
 .item-table {
   table-layout:auto;
   width: 100%;
-  white-space:nowrap
+  white-space:nowrap;
 }
 
-.table-title > th {
-  color:whitesmoke;
-  background-color: #8D8D8D;
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #8d8d8d;
+  color: whitesmoke;
+  padding: 8px;
 }
 
 td {
-    overflow:visible; 
-    text-overflow: ellipsis; 
-    word-wrap: normal;
-    text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #383838;
+}
+
+a {
+  color: lightblue;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.long-name {
+color:whitesmoke;
+}
+
+.short-name {
+font-size: 1.4rem;
 }
 
 .trader-img {
